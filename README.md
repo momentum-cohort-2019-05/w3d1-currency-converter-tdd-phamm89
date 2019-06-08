@@ -44,7 +44,7 @@ Use test-driven development to design a function called `convert`. Below is a li
 
 - Run `pipenv install` inside your repository. When working on this project, run `pipenv shell` in the repo directory before you start.
 
-- Create a function called `convert` that takes a list called `rates`, a number called `value`, a string called `current`, and a string called `to`. Make sure than when you call `convert` with `current` and `to` being equal, the return value is the same as `value`.
+- Create a function called `convert` that takes a list called `rates`, a number called `value`, a string called `current`, and a string called `target`. Make sure than when you call `convert` with `current` and `target` being equal, the return value is the same as `value`.
 
 - The `rates` list should contain a list of tuples, with each tuple containing a currency code you can convert from, a currency code you can convert to, and a rate.
 
@@ -54,7 +54,7 @@ Use test-driven development to design a function called `convert`. Below is a li
 
   This means that each dollar is worth 0.74 euros.
 
-  `value` is the amount of currency, `current` is the current currency code, and `to` is the currency code you wish to convert to.
+  `value` is the amount of currency, `current` is the current currency code, and `target` is the currency code you wish to convert to.
 
   Given the above rates, make sure that converting 1 dollar into euros returns the following value: `0.74`.
 
